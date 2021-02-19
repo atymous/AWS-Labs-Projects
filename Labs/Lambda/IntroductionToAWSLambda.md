@@ -14,7 +14,7 @@ Demonstrate using Lambda by creating a serverless image thumbnail application.
   3. Execution of the lambda function.
   4. Lambda function contains the source bucket name and object key name. AWS Lambda can now read the objects, can use the graphite libraries to create thumbnails, and save those thumbnails to the *target bucket*.
 
-Refer to this * [image]()
+Refer to this [image](https://github.com/atymous/AWS-Labs-Projects/blob/master/Labs/Lambda/IntroLambdaScenario.png)
 
 ###  Complete the following:
 
