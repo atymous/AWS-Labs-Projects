@@ -6,7 +6,15 @@
 ## Difficulty
 Introductory
 
-## Objectives
+## Scenario
+Demonstrate using Lambda by creating a serverless image thumbnail application.
+  1. User will upload an *object* into a *source bucket*.
+  2. Amazon S3 will detect the event and publishes the event to AWS Lambda. This occurs by invoking the Lambda
+  function and transferring/passing the event data as a function parameter.
+  3. Execution of the lambda function.
+  4. Lambda function contains the source bucket name and object key name. AWS Lambda can now read the objects, can use the graphite libraries to create thumbnails, and save those thumbnails to the *target bucket*.
+
+Refer to this * [image]()
 
 ###  Complete the following:
 
