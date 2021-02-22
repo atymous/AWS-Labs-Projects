@@ -78,5 +78,11 @@ Refer to this [image](https://github.com/atymous/AWS-Labs-Projects/blob/master/L
   **Iterator Age:**
 * Where are Lambda functions retained? [Task 4]
 
+### Learning Outcome
+* Create an AWS Lambda Function
+* Configure an S3 bucket as a *Lambda Event Source*
+* Trigger the Lambda Function everytime an image is uploaded onto the S3 bucket
+* Utilize Amazon CloudWatch Log to monitor the execution of the Lambda S3 function
+
 ## References 
 * [QwikLabs](https://www.qwiklabs.com/focuses/15682?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A3%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=8999985)
