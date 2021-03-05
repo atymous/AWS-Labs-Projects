@@ -92,6 +92,7 @@ You are working for a company utilizing Amazon S3 for data storage. Their applic
 
 * Task 6: Explore Versioning
   1. Navigate to the Bucket overview page
+  2. 
 
 
 
@@ -114,8 +115,11 @@ You are working for a company utilizing Amazon S3 for data storage. Their applic
 * What are ARN's? (Amazon Resource Names)
   They uniquely identify AWWS resources across all of AWS
 
+* What does "versioning" mean? [Task 6]
+  Versioning refers to a way of keeping multiple variants of an object in the same bucket. Versioning can be used to preserve, retrieve, and restore every version of every object stored in your S3 bucket. Versioning can also be used to easily recover from both unintended usesr actions and application failures.
+
 ### Learning Outcome
 
 
 ## References 
-* [QwikLabs](https://www.qwiklabs.com/focuses/15683?parent=catalog)
+* [QwikLabs](https://www.qwiklabs.com/focuses/16438?catalog_rank=%7B%22rank%22%3A4%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=9162506)
