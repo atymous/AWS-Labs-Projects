@@ -1,0 +1,27 @@
+# Introduction to Classic Load Balancers
+
+## Cloud Service Provider
+* Amazon Web Services (AWS)
+
+## Difficulty
+Introductory
+
+## Scenario
+Demonstrate using Classic Load Balancers by distributing traffic between 2-3 different EC2 instances.
+  1. Configure an Ec2 instance that has an Apache HTTP server installed on it -- to display a simple webpage.
+  2. Create Security Group for your instance.
+  3. Create a CLB.
+  4. Edit inbound rules for Security Groups.
+  5. Test CLB.
+
+###  Complete the following:
+
+* Task 1
+
+* Task 2
+
+* Task 3
+
+* Task 4
+
+* Task 5
