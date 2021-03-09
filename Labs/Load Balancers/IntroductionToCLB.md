@@ -25,7 +25,7 @@ A Classic Load Balancer is an old generation load balancer that supports HTTP/HT
       systemctl enable httpd.service
       curl localhost:80   -- *curl: used to load whatever is in the URL
   
-  How do we access the website in the browser instead of the terminal?
+  **How do we access the website in the browser instead of the terminal?**
   4. Change inbound rules in security for our instances to allow port 80
   5. Enter the following in the browser:
       https://<IP_Address>
@@ -34,9 +34,18 @@ A Classic Load Balancer is an old generation load balancer that supports HTTP/HT
   8. Enter the following into the terminal:
       echo "Hello World" > /var/www/html/index.html
       echo "Hello World from $(hostname -f)" > /var/www/html/index.html
-  9. Test this entering hostname -f, [this]() should be outputed.
+  9. Test this entering **hostname -f**, [this]() should be outputed.
 
 * Task 2: Create a CLB.
+  1. Scroll down and click **Load Balancers**
+  2. Select **Classic** and name the CLB "CLBPractice"
+  3. Creating an internal balancer means that we won't be able to access it, **don't enable**
+  4. Continue to **Assign Security Groups**
+  5. Create a new security group and name "my-first-load-balancer"
+  6. *Notice how we are not using the same security group as the instance we are connecting to
+  7. Ignore warning and continue.
+  8. **Check:** enter **<ip>/index.html**, output should say "Hello World"
+  9. 
 
 * Task 3: Edit inbound rules for Security Groups.
 
